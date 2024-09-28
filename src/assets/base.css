@@ -49,10 +49,37 @@
     list-style-type: none;
   }
 
+
   main {
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 40px;
   }
+    header{
+        max-width: 1240px;
+        margin: 0 auto;
+    }
+
+
+    @font-face {
+        font-family: 'Dancing Script';
+        font-weight: 400;
+        src: url("./fonts/DancingScript-Regular.ttf") format('truetype');
+    }
+    @font-face {
+        font-family: 'Dancing Script';
+        font-weight: 500;
+        src: url("./fonts/DancingScript-Medium.ttf") format('truetype');
+    }
+    @font-face {
+        font-family: 'Dancing Script';
+        font-weight: 600;
+        src: url("./fonts/DancingScript-SemiBold.ttf") format('truetype');
+    }
+    @font-face {
+        font-family: 'Dancing Script';
+        font-weight: 700;
+        src: url("./fonts/DancingScript-Bold.ttf") format('truetype');
+    }
 }
 
