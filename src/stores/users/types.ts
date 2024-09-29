@@ -1,9 +1,8 @@
-interface Geo {
+type Geo = {
     lat: string;
     lng: string;
 }
-
-interface Address {
+type Address = {
     street: string;
     suite: string;
     city: string;
@@ -11,13 +10,13 @@ interface Address {
     geo: Geo;
 }
 
-interface Company {
+type Company= {
     name: string;
     catchPhrase: string;
     bs: string;
 }
 
-export interface User {
+export type User = {
     id: number;
     name: string;
     username: string;
@@ -27,3 +26,4 @@ export interface User {
     website: string;
     company: Company;
 }
+
